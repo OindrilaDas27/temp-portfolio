@@ -7,8 +7,8 @@ import { AiOutlineHome } from 'react-icons/ai';
 const Navbar = () => {
   return (
     <div className='navbar-container'>
-      <Link to='/'>
-        <div className='logo' onClick>
+      <Link to='/temp-portfolio'>
+        <div className='logo'>
           <AiOutlineHome className='logo-image' />
         </div>
       </Link>
@@ -24,7 +24,7 @@ const Navbar = () => {
         </div>
         <div className='contact-button nav-item'>
           <Link to='/contact' className='contact-link'>
-            Contact
+            Contact 
           </Link>
         </div>
       </div>
